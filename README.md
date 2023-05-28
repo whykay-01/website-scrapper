@@ -18,6 +18,6 @@ python scrapper.py
 
 4. Enter the url of the website you want to scrap
 
-5. Enter the name of the file you want to save the email addresses to
+5. Enter the name of the file you want to save the email addresses to (the file will be saved to the results folder by default)
 
 6. The program will create a file with the name you entered and save all the email addresses to it
