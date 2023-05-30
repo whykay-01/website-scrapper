@@ -20,4 +20,11 @@ python scrapper.py
 
 5. Enter the name of the file you want to save the email addresses to (the file will be saved to the results folder by default)
 
+### Note: The program will only scrap the first page of the website
+<!-- 
+### For the websites that require login, you can use the following command
+```
+python scrapper.py --username <your_username> --password <your_password>
+``` -->
+
 6. The program will create a file with the name you entered and save all the email addresses to it
