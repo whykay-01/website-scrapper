@@ -28,3 +28,16 @@ python scrapper.py --username <your_username> --password <your_password>
 ``` -->
 
 6. The program will create a file with the name you entered and save all the email addresses to it
+
+# As of May 31st, 2023 this project is considered complete. However, I am currently working on the newe ways of scraping the webpages. Stay tuned for the updates! In particular, I am working on the following features:
+
+- [ ] Scraping multiple pages
+- [ ] Scraping the entire website
+- [ ] Scraping the website that requires login
+- [ ] Scraping the website that requires captcha
+- [ ] Scraping the website that requires JavaScript
+- [ ] Scraping the website that requires scrolling
+
+Finally, I am also working on the easier ways of deploying the program. One way of doing so is the CLI inteface. I am currently in the stage of choosing the right environment for the CLI interface. 
+
+For any contirbutions to the project -- feel free to submit the pull request. I will review it as soon as possible.
