@@ -44,6 +44,7 @@ def validity_check(url):
     checks the validity of the connection
     Args: URL of the webpage to scrape
     Returns: URL if valid, None otherwise
+
     """
     # validity
     if not url.startswith("http"):
