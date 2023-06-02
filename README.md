@@ -13,7 +13,7 @@ pip install -r requirements.txt
 
 3. Run the program
 ```
-python scrapper.py
+python scrapper.py 
 ```
 
 4. Enter the url of the website you want to scrap
