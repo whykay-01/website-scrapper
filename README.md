@@ -8,9 +8,28 @@ After that, you could specify where do you want the program to save the results 
 
 # Quick Start
 
-1. Clone the repo
+1. Clone the repo 
 
-2. Install the requirements
+```
+git clone PUT THE LINK HERE
+```
+
+Go to the working directory
+```
+cd website-scrapper
+```
+
+Create the virtual environment for all the dependencies:
+```
+python3 -m venv venv
+```
+
+Activate the virtual environment:
+```
+source venv/bin/activate
+```
+
+2. Now that we have the VENV installed, let's install the requirements for the project:
 ```
 pip install -r requirements.txt
 ```
