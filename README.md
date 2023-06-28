@@ -1,6 +1,10 @@
 # Website scrapper
 
-This is a simple program that will help you to scrap the webpage and extract all the email addresses from it.
+This is a simple program that will help you to scrap the webpage and extract some routine and repetitve information from it.
+
+It is supposed to help a user to scrap for certain things, such as email addresses, phone numbers, URLs, and etc. through providing a link for the website. 
+
+After that, you could specify where do you want the program to save the results (CSV files, Excel files, TXT files, etc.)
 
 # Quick Start
 
