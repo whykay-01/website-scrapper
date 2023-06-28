@@ -25,6 +25,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+# NOTE: this is the folder where all your resulting files will be uploaded to
 results/
 
 # PyInstaller
