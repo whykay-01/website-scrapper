@@ -1,6 +1,17 @@
 import click
 import os
-from app import connection, address, email, phone, name, image, social_media_accounts, urls, 
+
+# from app import (
+#     address,
+#     connection,
+#     email,
+#     image,
+#     phone_num,
+#     social_media_accounts,
+#     urls,
+# )
+from app.connection import check_connection
+from app.connection import url_validity_check
 
 
 @click.command()
@@ -8,9 +19,11 @@ from app import connection, address, email, phone, name, image, social_media_acc
     "--link", prompt="Enter the link to scrap", help="The link of the website to scrap"
 )
 def scrap_webpage(link):
-    connection.check_connection(link)
-    connection.url_validity_check(link)
-    click.echo("Test success!")
+    if check_connection():
+        url_validity_check(link)
+    else:
+        click.echo("No internet connection! Try again!")
+        exit(1)
 
 
 if __name__ == "__main__":
