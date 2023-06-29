@@ -12,7 +12,6 @@ def check_connection():
         requests.get("https://google.com")
         return True
     except:
-        print("Failed! Please check your internet connection")
         return False
 
 
@@ -31,7 +30,7 @@ def url_validity_check(url):
     # existense
     try:
         req = requests.get(url)
-        print(req)
+        print("Scrapping...")
     except:
         print("Invalid URL")
         return None
