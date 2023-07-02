@@ -10,6 +10,7 @@ import os
 #     social_media_accounts,
 #     urls,
 # )
+
 from app.connection import check_connection
 from app.connection import url_validity_check
 
@@ -24,6 +25,9 @@ def scrap_webpage(link):
     else:
         click.echo("No internet connection! Try again!")
         exit(1)
+
+
+# @click.command()
 
 
 if __name__ == "__main__":
