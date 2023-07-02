@@ -36,6 +36,7 @@ pyrsistent==0.19.3
 rapidfuzz==2.15.1
 requests==2.28.2
 requests-toolbelt==1.0.0
+scraperapi-sdk==0.2.2
 shellingham==1.5.0.post1
 six==1.16.0
 soupsieve==2.4.1
